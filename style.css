@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("screenshot-1730623108157.png");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.profile > img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid #222;
+  border-radius: 100%;
+}
+
+.profile > p {
+  font-size: 1.8em;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: #fff;
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.link > a {
+  text-decoration: none;
+  color: #222;
+  font-size: 28px;  /* Increased font size */
+  text-align: center;
+  border: 3px solid #222;
+  background-color: #eaeaea;
+  border-radius: 12px; /* Increased border radius for rounded corners */
+  margin: 10px 20px;
+  padding: 15px 30px;  /* Increased padding for a larger button */
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.link > a:hover {
+  background-color: #d3d3d3;  /* Slightly darker shade on hover */
+}
+
+.footer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.footer > i {
+  color: #ffffff !important;
+  font-size: 20px;
+}
